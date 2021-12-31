@@ -1,0 +1,88 @@
+/* selector class ditandai dengan simbol .*/
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'regular 400';
+}
+
+nav { 
+    background-color: whitesmoke;
+    display: flex;
+    height: 7vh;
+  }
+  
+  nav .left-side {
+    flex: 50%;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav .left-side {
+    padding-left: 90px;
+  }
+  
+  nav .left-side ul {
+    display: inline;
+  }
+  
+  
+  nav .left-side ul li {
+    display: inline;
+    margin-left: 40px;
+  }
+  
+  nav .left-side a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  
+  nav .left-side .list-active {
+    color: yellow;
+  }
+  
+  nav .right-side {
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 90px;
+  }
+  
+  nav .right-side a {
+    text-decoration: none;
+    background-color:purple;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+  }
+
+  .container-card {
+      display : flex;
+      align-items: center;
+      justify-content: center;
+      height: 93vh;
+ }
+
+ .container-card-and-right-content {
+     display: flex;
+     width: 80%;
+ }
+
+ .card-personal {
+     flex: 40%;
+ }
+
+ .right-content {
+    flex: 60%;
+    padding-left: 20px;
+}
+
+.container-ability{
+  display:flex;
+  margin-top: 20px;
+}
+
+.container-ability div{
+  padding-right: 20px;
+}

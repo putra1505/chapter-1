@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="form.js"></script>
+</head>
+
+<body style="background-color: yellow">
+    <nav>
+        <div class="left-side">
+            <img src="assets/hybe_logos-removebg-preview.png" style="width:30%;" />
+            
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="">Blog</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right-side">
+            <a href="Contact.html">Contact Me</a>
+        </div>
+            
+    </nav>
+     <center>
+     <div style="
+            margin-top:150px; width:350px">
+            <form style="text-align:left">
+                <div>
+                    <label For="name" style="font-size:20px; font-weight:700;">Name</label>
+                    <input id="input-name" type="text" style="
+                            width:100%;
+                            padding:8px;
+                            margin-top:5px;
+                            margin-bottom:20px;
+                            background: #f4f3f3;
+                            border-radius:8px;
+                            border: 1px solid #c4c4c4;
+                        " />
+                </div>
+                <div>
+                    <label For="input-email" style="font-size:20px; font-weight:700;">Email</label>
+                    <input id="input-email" type="text" style="
+                            width:100%;
+                            padding:8px;
+                            margin-top:5px;
+                            margin-bottom:20px;
+                            background: #f4f3f3;
+                            border-radius:8px;
+                            border: 1px solid #c4c4c4;
+                        "/>
+                </div>
+                <div>
+                    <label For="input-phone" style="font-size:20px; font-weight:700;">Phone</label>
+                    <input id="input-phone" type="text" style="
+                            width:100%;
+                            padding:8px;
+                            margin-top:5px;
+                            margin-bottom:20px;
+                            background: #f4f3f3;
+                            border-radius:8px;
+                            border: 1px solid #c4c4c4;
+                        "/>
+                </div>
+                <div>
+                    <label For="input-subject" style="font-size:20px; font-weight:700;">Subject</label>
+                    <select id="input-subject" style="
+                                width:100%;
+                            padding:8px;
+                            margin-top:5px;
+                            margin-bottom:20px;
+                            background: #f4f3f3;
+                            border-radius:8px;
+                            border: 1px solid #c4c4c4;"> 
+                        <option style="font-size:15px;">Let's Talk</option>
+                        <option style="font-size:15px;">Let's Collaboration</option>
+                        <option style="font-size:15px;">Complaiment</option>
+                    </select>
+                </div>
+                <div>
+                    <label For="input-message" style="font-size:20px; font-weight:700;">Your Message</label>
+                    <textarea id="input-message" style="
+                            width:100%;
+                            padding:8px;
+                            margin-top:5px;
+                            margin-bottom:20px;
+                            background: #f4f3f3;
+                            border-radius:8px;
+                            border: 1px solid #c4c4c4;
+                            resize:none;
+                            font-family:'Times New Roman', Times, serif;
+                        "></textarea>
+                </div>
+                
+                <button type="button" onclick="showData()">submit</button>
+            <!--<a href="mailto:putrapurnama1505@gmail.com?subject=Bootamp">Send Email</a>-->
+            </form>
+        </div>
+     </body>
+</html>
